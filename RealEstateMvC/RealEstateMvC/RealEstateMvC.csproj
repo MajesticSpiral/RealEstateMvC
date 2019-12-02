@@ -144,6 +144,9 @@
     <Content Include="fonts\icomoon\icomoon.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\cottage1.jfif" />
+    <Content Include="images\cottage2.jfif" />
+    <Content Include="images\cottage3.jfif" />
     <Content Include="images\cover_bg_1.jpg" />
     <Content Include="images\cover_bg_2.jpg" />
     <Content Include="images\hero.jpg" />
@@ -151,6 +154,12 @@
     <Content Include="images\home2.jfif" />
     <Content Include="images\home3.jfif" />
     <Content Include="images\home4.jfif" />
+    <Content Include="images\house1.jfif" />
+    <Content Include="images\house2.jfif" />
+    <Content Include="images\house3.jfif" />
+    <Content Include="images\house4.jfif" />
+    <Content Include="images\house5.jfif" />
+    <Content Include="images\house6.jfif" />
     <Content Include="images\img_bg_1.jpg" />
     <Content Include="images\img_bg_2.jpg" />
     <Content Include="images\img_bg_3.jpg" />

@@ -21,7 +21,7 @@ body {
 	}
 
 a {
-	color: #44C662;
+	color: #699fc4;
 	-webkit-transition: 0.5s, ease;
 	-o-transition: 0.5s, ease;
 	transition: 0.5s, ease;
@@ -29,7 +29,7 @@ a {
 
 	a:hover {
 		text-decoration: none;
-		color: #44C662;
+		color: #699fc4;
 	}
 
 p, ul, ol {
@@ -347,7 +347,7 @@ figure {
 	}
 
 	.sf-menu a {
-		color: rgba(0, 0, 0, 0.5);
+		color: #fff;
 		padding: 0.75em 1em !important;
 		font-weight: normal;
 		border-left: none;
@@ -361,11 +361,11 @@ figure {
 	}
 
 		.sf-menu a:hover, .sf-menu a:focus {
-			color: #44C662 !important;
+			color: #699fc4;
 		}
 
 	.sf-menu li.active a:hover, .sf-menu li.active a:focus {
-		color: #44C662;
+		color: #699fc4;
 	}
 
 	.sf-menu li, .sf-menu ul li, .sf-menu ul ul li, .sf-menu li:hover, .sf-menu li.sfHover {
@@ -380,7 +380,7 @@ figure {
 		}
 
 		.sf-menu li:hover a, .sf-menu li.sfHover a, .sf-menu ul li:hover a, .sf-menu ul li.sfHover a, .sf-menu li.active a {
-			color: #44C662;
+			color: #fff;
 		}
 
 		.sf-menu ul li:hover, .sf-menu ul li.sfHover {
@@ -429,7 +429,7 @@ figure {
 	left: 0;
 	width: 100%;
 	z-index: 1022;
-	background: #fff;
+	background: #22313f;
 }
 
 .nav-header {
@@ -454,7 +454,7 @@ figure {
 		top: 0;
 		left: 0;
 		font-size: 16px;
-		color: #44C662;
+		color: #fff;
 		background: rgba(0, 0, 0, 0.06);
 		padding: 10px;
 		-webkit-border-radius: 50%;
@@ -464,11 +464,11 @@ figure {
 	}
 
 	#fh5co-logo a {
-		color: #44C662;
+		color: #fff;
 	}
 
 		#fh5co-logo a:hover, #fh5co-logo a:focus {
-			color: #44C662 !important;
+			color: #699fc4 !important;
 		}
 
 	#fh5co-logo span {
@@ -488,7 +488,7 @@ figure {
 	}
 
 #fh5co-primary-menu > li > ul li.active > a {
-	color: #44C662 !important;
+	color: #699fc4 !important;
 }
 
 #fh5co-primary-menu > li > .sf-with-ul:after {
@@ -614,7 +614,7 @@ figure {
 }
 
 	#fh5co-primary-menu .fh5co-sub-menu a:hover {
-		color: #44C662 !important;
+		color: #699fc4 !important;
 	}
 
 #fh5co-search-map {
@@ -633,7 +633,7 @@ figure {
 	#fh5co-search-map .search-property {
 		width: 33.5%;
 		float: right;
-		background: #44C662;
+		background: #22313f;
 	}
 
 @media screen and (max-width: 768px) {
@@ -881,7 +881,7 @@ div.cs-select span {
 			height: 0;
 			border-style: solid;
 			border-width: 0px 0px 5px 7px;
-			border-color: transparent transparent #44C662 transparent;
+			border-color: transparent transparent #699fc4 transparent;
 		}
 
 	.fh5co-property .prop-details {
@@ -1939,3 +1939,8 @@ div.cs-select span {
 	background: url(../images/hourglass.svg) center no-repeat #222222;
 }
 
+.container2 {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
