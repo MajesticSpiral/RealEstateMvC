@@ -26,5 +26,13 @@ namespace RealEstateMvC.Controllers
 
 			return View();
 		}
+
+		public ActionResult Agent()
+		{
+			ViewBag.Message = "Your agent page.";
+
+			return View();
+		}
+
 	}
 }

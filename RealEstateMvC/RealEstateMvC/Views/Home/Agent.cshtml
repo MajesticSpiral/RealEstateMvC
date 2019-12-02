@@ -1,5 +1,6 @@
-﻿@{
-	ViewBag.Title = "Contact";
+﻿
+@{
+	ViewBag.Title = "Agent";
 }
 
 <!DOCTYPE html>
@@ -7,37 +8,6 @@
 <html class="no-js">
 <!--<![endif]-->
 <head>
-
-	<style>
-
-		/* Style inputs with type="text", select elements and textareas */
-		input[type=text], select, textarea {
-			width: 100%; /* Full width */
-			padding: 12px; /* Some padding */
-			border: 1px solid #ccc; /* Gray border */
-			border-radius: 4px; /* Rounded borders */
-			box-sizing: border-box; /* Make sure that padding and width stays in place */
-			margin-top: 6px; /* Add a top margin */
-			margin-bottom: 16px; /* Bottom margin */
-			resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-		}
-
-		/* Style the submit button with a specific background color etc */
-		input[type=submit] {
-			background-color: #4CAF50;
-			color: white;
-			padding: 12px 20px;
-			border: none;
-			border-radius: 4px;
-			cursor: pointer;
-		}
-
-			/* When moving the mouse over the submit button, add a darker green color */
-			input[type=submit]:hover {
-				background-color: #45a049;
-			}
-
-	</style>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -86,10 +56,6 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	<style>
-
-
-	</style>
 </head>
 <body>
 	<div id="fh5co-wrapper">
@@ -201,47 +167,71 @@
 			</aside>
 
 			<div id="fh5co-about" class="fh5co-agent">
-
-				
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-							<h3>Contact Us!</h3>
-							<p>
-								We provide the best houses available using our powerful search engine, to give clients what they're looking for
-								in their area!.
-							</p>
+					<div id="fh5co-about" class="fh5co-agent">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+									<h3>Our Agents</h3>
+									<p>Contact one of our talented agents at Sykes Cottage!.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-3 text-center animate-box" data-animate-effect="fadeIn">
+									<div class="fh5co-staff">
+										<img class="img-responsive" src="~/images/agent1.jfif">
+										<h3>John Smith</h3>
+										<p class="fh5co-social-icons">
+											<a href="#"><i class="icon-twitter2"></i></a>
+											<a href="#"><i class="icon-facebook2"></i></a>
+											<a href="#"><i class="icon-instagram"></i></a>
+											<a href="#"><i class="icon-dribbble2"></i></a>
+											<a href="#"><i class="icon-youtube"></i></a>
+										</p>
+									</div>
+								</div>
+								<div class="col-sm-3 text-center animate-box" data-animate-effect="fadeIn">
+									<div class="fh5co-staff">
+										<img class="img-responsive" src="~/images/agent2.jfif">
+										<h3>Emily Hughes</h3>
+										<p class="fh5co-social-icons">
+											<a href="#"><i class="icon-twitter2"></i></a>
+											<a href="#"><i class="icon-facebook2"></i></a>
+											<a href="#"><i class="icon-instagram"></i></a>
+											<a href="#"><i class="icon-dribbble2"></i></a>
+											<a href="#"><i class="icon-youtube"></i></a>
+										</p>
+									</div>
+								</div>
+								<div class="col-sm-3 text-center animate-box" data-animate-effect="fadeIn">
+									<div class="fh5co-staff">
+										<img class="img-responsive" src="~/images/agent3.jfif">
+										<h3>Alex King</h3>
+										<p class="fh5co-social-icons">
+											<a href="#"><i class="icon-twitter2"></i></a>
+											<a href="#"><i class="icon-facebook2"></i></a>
+											<a href="#"><i class="icon-instagram"></i></a>
+											<a href="#"><i class="icon-dribbble2"></i></a>
+											<a href="#"><i class="icon-youtube"></i></a>
+										</p>
+									</div>
+								</div>
+								<div class="col-sm-3 text-center animate-box" data-animate-effect="fadeIn">
+									<div class="fh5co-staff">
+										<img class="img-responsive" src="~/images/agent4.jfif">
+										<h3>David Williams</h3>
+										<p class="fh5co-social-icons">
+											<a href="#"><i class="icon-twitter2"></i></a>
+											<a href="#"><i class="icon-facebook2"></i></a>
+											<a href="#"><i class="icon-instagram"></i></a>
+											<a href="#"><i class="icon-dribbble2"></i></a>
+											<a href="#"><i class="icon-youtube"></i></a>
+										</p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 
-					<div class="container2">
-						<form action="action_page.php">
-
-							<label for="fname">First Name</label>
-							<input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-							<label for="lname">Last Name</label>
-							<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-							<label for="Email">Email</label>
-							<input type="text" id="Email" name="Email" placeholder="Your Email..">
-
-							<label for="country">Country</label>
-							<select id="country" name="country">
-								<option value="australia">Australia</option>
-								<option value="canada">Canada</option>
-								<option value="usa">USA</option>
-							</select>
-
-							<label for="subject">Subject</label>
-							<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-							<input type="submit" value="Submit">
-
-						</form>
-					</div>
-				</div>
 			</div>
 
 			<footer>
@@ -249,7 +239,7 @@
 					<div class="container">
 						<div class="row row-bottom-padded-md">
 							<div class="col-md-3">
-								<h3 class="section-title">About Sykes Cottage</h3>
+								<h3 class="section-title">About Sykes Cottages</h3>
 								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
 							</div>
 
@@ -339,5 +329,4 @@
 	<script src="~/Scripts/main.js"></script>
 </body>
 </html>
-
 
