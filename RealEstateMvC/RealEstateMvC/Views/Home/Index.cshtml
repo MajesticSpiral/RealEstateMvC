@@ -63,7 +63,7 @@
 				<div class="container">
 					<div class="nav-header">
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-						<h1 id="fh5co-logo"><a href="@Url.Content("~/Home/Index")">Sykes<span>Cottages</span></a></h1>
+						<h1 id="fh5co-logo"><a href="@Url.Content("~/Home/Index")">Cheshire<span>Cottages</span></a></h1>
 						<!-- START #fh5co-menu-wrap -->
 						<nav id="fh5co-menu-wrap" role="navigation">
 							<ul class="sf-menu" id="fh5co-primary-menu">
@@ -73,10 +73,10 @@
 								<li>
 									<a href="#" class="fh5co-sub-ddown">Properties</a>
 									<ul class="fh5co-sub-menu">
-										<li><a href="#">Family Home</a></li>
+										<li><a href="#">Family Homes</a></li>
 										<li><a href="#">Flats</a></li>
 										<li><a href="#">Apartments</a></li>
-										<li><a href="#">Studio</a></li>
+										<li><a href="#">Studios</a></li>
 									</ul>
 								</li>
 								<li><a href="@Url.Content("~/Home/Agent")">Agents</a></li>
@@ -99,13 +99,13 @@
 											<div class="desc">
 												<span class="status">Sale</span>
 												<h1>New House in Canada, UK</h1>
-												<h2 class="price">$4,000.00</h2>
+												<h2 class="price">£49,000.00</h2>
 												<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 												<p class="details">
 													<span>2000 ft sq</span>
 													<span>4 Bedrooms</span>
 													<span>3 Bathrooms</span>
-													<span>2 Garage</span>
+													<span>1 Garage</span>
 												</p>
 												<p><a class="btn btn-primary btn-lg" href="#">Learn More</a></p>
 											</div>
@@ -121,14 +121,14 @@
 										<div class="slider-text-inner">
 											<div class="desc">
 												<span class="status">Rent</span>
-												<h1>New House in Canada, UK</h1>
-												<h2 class="price">$2000/mos</h2>
+												<h1>New House in Chester, UK</h1>
+												<h2 class="price">£2000/mos</h2>
 												<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 												<p class="details">
 													<span>2000 ft sq</span>
 													<span>4 Bedrooms</span>
 													<span>3 Bathrooms</span>
-													<span>2 Garage</span>
+													<span>1 Garage</span>
 												</p>
 												<p><a class="btn btn-primary btn-lg" href="#">Learn More</a></p>
 											</div>
@@ -144,14 +144,14 @@
 										<div class="slider-text-inner">
 											<div class="desc">
 												<span class="status">Sale</span>
-												<h1>New House in Canada, UK</h1>
-												<h2 class="price">$4,000.00</h2>
+												<h1>New House in Shrewsbury, UK</h1>
+												<h2 class="price">£40,000.00</h2>
 												<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 												<p class="details">
 													<span>2000 ft sq</span>
 													<span>4 Bedrooms</span>
 													<span>3 Bathrooms</span>
-													<span>2 Garage</span>
+													<span>1 Garage</span>
 												</p>
 												<p><a class="btn btn-primary btn-lg" href="#">Learn More</a></p>
 											</div>
@@ -181,7 +181,8 @@
 									<select class="cs-select cs-skin-border">
 										<option value="" disabled selected>Any</option>
 										<option value="1">Rent</option>
-										<option value="2">Sale</option>
+										<option value="2">Purchase</option>
+										<option value="3">Sell</option>
 									</select>
 								</section>
 							</div>
@@ -191,7 +192,9 @@
 									<select class="cs-select cs-skin-border input-half">
 										<option value="" disabled selected>Any</option>
 										<option value="1">Building</option>
-										<option value="2">Office</option>
+										<option value="2">Apartment</option>
+										<option value="3">Studio</option>
+										<option value="4">Flat</option>
 									</select>
 								</section>
 							</div>
@@ -204,86 +207,61 @@
 							<div class="col-xxs-12 col-xs-12">
 								<section>
 									<label for="class">Price:</label>
-									<div class="wide">
-										<select class="cs-select cs-select-half cs-skin-border input-half">
+										<select class="cs-select cs-skin-border input-half">
 											<option value="" disabled selected>Any</option>
-											<option value="1">Building</option>
-											<option value="2">Office</option>
+											<option value="1">£20,000 - £50,000</option>
+											<option value="1">£30,000 - £60,000</option>
+											<option value="1">£40,000 - £70,000</option>
+											<option value="1">£50,000 - £80,000</option>
+											<option value="1">£60,000 - £90,000</option>
 										</select>
-										<select class="cs-select cs-select-half cs-skin-border input-half">
-											<option value="" disabled selected>Any</option>
-											<option value="1">Building</option>
-											<option value="2">Office</option>
-										</select>
-									</div>
+										
 								</section>
 							</div>
 							<div class="col-xxs-12 col-xs-12">
 								<section>
 									<label for="class">Bedrooms:</label>
-									<div class="wide">
-										<select class="cs-select cs-select-half cs-skin-border input-half">
-											<option value="" disabled selected>Any</option>
-											<option value="1">Building</option>
-											<option value="2">Office</option>
-										</select>
-										<select class="cs-select cs-select-half cs-skin-border input-half">
-											<option value="" disabled selected>Any</option>
-											<option value="1">Building</option>
-											<option value="2">Office</option>
-										</select>
-									</div>
+								
+									<select class="cs-select cs-select-half cs-skin-border input-half">
+										<option value="" disabled selected>Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select>
 								</section>
 							</div>
 							<div class="col-xxs-12 col-xs-12">
 								<section>
 									<label for="class">Bathrooms:</label>
-									<div class="wide">
-										<select class="cs-select cs-select-half cs-skin-border input-half">
-											<option value="" disabled selected>Any</option>
-											<option value="1">Building</option>
-											<option value="2">Office</option>
-										</select>
-										<select class="cs-select cs-select-half cs-skin-border input-half">
-											<option value="" disabled selected>Any</option>
-											<option value="1">Building</option>
-											<option value="2">Office</option>
-										</select>
-									</div>
+									<select class="cs-select cs-select-half cs-skin-border input-half">
+										<option value="" disabled selected>Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+									</select>
 								</section>
 							</div>
 							<div class="col-xxs-12 col-xs-12">
 								<section>
 									<label for="class">Area:</label>
-									<div class="wide">
 										<select class="cs-select cs-select-half cs-skin-border input-half">
 											<option value="" disabled selected>Any</option>
 											<option value="1">Building</option>
 											<option value="2">Office</option>
 										</select>
-										<select class="cs-select cs-select-half cs-skin-border input-half">
-											<option value="" disabled selected>Any</option>
-											<option value="1">Building</option>
-											<option value="2">Office</option>
-										</select>
-									</div>
 								</section>
 							</div>
 							<div class="col-xxs-12 col-xs-12">
 								<section>
 									<label for="class">Parking spots:</label>
-									<div class="wide">
 										<select class="cs-select cs-select-half cs-skin-border input-half">
 											<option value="" disabled selected>Any</option>
 											<option value="1">Building</option>
 											<option value="2">Office</option>
 										</select>
-										<select class="cs-select cs-select-half cs-skin-border input-half">
-											<option value="" disabled selected>Any</option>
-											<option value="1">Building</option>
-											<option value="2">Office</option>
-										</select>
-									</div>
 								</section>
 							</div>
 							<div class="col-xxs-12 col-xs-12 text-center">
@@ -390,8 +368,8 @@
 							<a href="#" class="fh5co-property" style="background-image: url(/images//cottage1.jfif);">
 								<span class="status">Sale</span>
 								<div class="prop-details">
-									<span class="price">$3,000</span>
-									<h3>Properties Near in Beach, USA California</h3>
+									<span class="price">$30,000</span>
+									<h3>Properties Near Beach, USA California</h3>
 								</div>
 							</a>
 						</div>
@@ -399,7 +377,7 @@
 							<a href="#" class="fh5co-property" style="background-image: url(/images//cottage2.jfif);">
 								<span class="status">Rent</span>
 								<div class="prop-details">
-									<span class="price">$200/mos</span>
+									<span class="price">£200/mos</span>
 									<h3>Modern House at NZ</h3>
 								</div>
 							</a>
@@ -408,8 +386,8 @@
 							<a href="#" class="fh5co-property" style="background-image: url(/images/cottage3.jfif);">
 								<span class="status">Sale</span>
 								<div class="prop-details">
-									<span class="price">$3,000</span>
-									<h3>Bungalo House</h3>
+									<span class="price">£30,000</span>
+									<h3>4 bedroom house</h3>
 								</div>
 							</a>
 						</div>
@@ -441,10 +419,8 @@
 									<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
 									<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;</p>
 								</blockquote>
-								<p class="author">John Doe, CEO <span class="subtext">Creative Director</span></p>
+								<p class="author">David Jones, CEO <span class="subtext">Digital Director</span></p>
 							</div>
-
-
 						</div>
 						<div class="col-md-4">
 							<div class="box-testimony animate-box">
@@ -452,7 +428,7 @@
 									<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
 									<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
 								</blockquote>
-								<p class="author">John Doe, Founder <span class="subtext">Creative Director</span></p>
+								<p class="author">John Williams, Founder <span class="subtext">Music Director</span></p>
 							</div>
 
 						</div>
@@ -474,15 +450,14 @@
 									<span class="status">Sale</span>
 									<ul class="list-details">
 										<li>2000 ft sq
-										<li>
 										<li>5 Bedroom:</li>
 										<li>4 Bathroom:</li>
-										<li>3 Garage:</li>
+										<li>1 Garage:</li>
 									</ul>
 								</a>
 								<div class="property-details">
 									<h3>Properties Near in Beach</h3>
-									<span class="price">$3,000</span>
+									<span class="price">£30,000</span>
 									<span class="address"><i class="icon-map"></i>Thomas Street, St. Louis, MO 8990, USA</span>
 								</div>
 							</div>
@@ -493,15 +468,14 @@
 									<span class="status">Rent</span>
 									<ul class="list-details">
 										<li>2000 ft sq
-										<li>
 										<li>5 Bedroom:</li>
 										<li>4 Bathroom:</li>
-										<li>3 Garage:</li>
+										<li>1 Garage:</li>
 									</ul>
 								</a>
 								<div class="property-details">
 									<h3>Modern House at NZ</h3>
-									<span class="price">$200/mos</span>
+									<span class="price">£200/mos</span>
 									<span class="address"><i class="icon-map"></i>Thomas Street, St. Louis, MO 8990, USA</span>
 								</div>
 							</div>
@@ -512,15 +486,14 @@
 									<span class="status">Sale</span>
 									<ul class="list-details">
 										<li>2000 ft sq
-										<li>
 										<li>5 Bedroom:</li>
 										<li>4 Bathroom:</li>
-										<li>3 Garage:</li>
+										<li>1 Garage:</li>
 									</ul>
 								</a>
 								<div class="property-details">
-									<h3>Bonggalo House</h3>
-									<span class="price">$3,000</span>
+									<h3>Bungalow House</h3>
+									<span class="price">£30,000</span>
 									<span class="address"><i class="icon-map"></i>Thomas Street, St. Louis, MO 8990, USA</span>
 								</div>
 							</div>
@@ -531,15 +504,14 @@
 									<span class="status">Sale</span>
 									<ul class="list-details">
 										<li>2000 ft sq
-										<li>
 										<li>5 Bedroom:</li>
 										<li>4 Bathroom:</li>
-										<li>3 Garage:</li>
+										<li>1 Garage:</li>
 									</ul>
 								</a>
 								<div class="property-details">
 									<h3>Properties at Alaska</h3>
-									<span class="price">$3,000</span>
+									<span class="price">£30,000</span>
 									<span class="address"><i class="icon-map"></i>Thomas Street, St. Louis, MO 8990, USA</span>
 								</div>
 							</div>
@@ -550,15 +522,14 @@
 									<span class="status">Rent</span>
 									<ul class="list-details">
 										<li>2000 ft sq
-										<li>
 										<li>5 Bedroom:</li>
 										<li>4 Bathroom:</li>
-										<li>3 Garage:</li>
+										<li>1 Garage:</li>
 									</ul>
 								</a>
 								<div class="property-details">
 									<h3>Modern Properties</h3>
-									<span class="price">$200/mos</span>
+									<span class="price">£200/mos</span>
 									<span class="address"><i class="icon-map"></i>Thomas Street, St. Louis, MO 8990, USA</span>
 								</div>
 							</div>
@@ -569,15 +540,14 @@
 									<span class="status">Sale</span>
 									<ul class="list-details">
 										<li>2000 ft sq
-										<li>
 										<li>5 Bedroom:</li>
 										<li>4 Bathroom:</li>
-										<li>3 Garage:</li>
+										<li>1 Garage:</li>
 									</ul>
 								</a>
 								<div class="property-details">
 									<h3>House at the Top of Mountain</h3>
-									<span class="price">$3,000</span>
+									<span class="price">£30,000</span>
 									<span class="address"><i class="icon-map"></i>Thomas Street, St. Louis, MO 8990, USA</span>
 								</div>
 							</div>
@@ -586,15 +556,12 @@
 				</div>
 			</div>
 
-
-			
-
 			<footer>
 				<div id="footer">
 					<div class="container">
 						<div class="row row-bottom-padded-md">
 							<div class="col-md-3">
-								<h3 class="section-title">About Sykes Cottages</h3>
+								<h3 class="section-title">About Cheshire Cottages</h3>
 								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
 							</div>
 
