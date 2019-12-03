@@ -34,5 +34,41 @@ namespace RealEstateMvC.Controllers
 			return View();
 		}
 
+		public ActionResult Properties()
+		{
+			ViewBag.Message = "Your properties page.";
+
+			return View();
+		}
+
+		public ActionResult FamilyHomes()
+		{
+			ViewBag.Message = "Your family homes page.";
+
+			return View();
+		}
+
+		public ActionResult Flats()
+		{
+			ViewBag.Message = "Your flats page.";
+
+			return View();
+		}
+
+
+		public ActionResult Apartments()
+		{
+			ViewBag.Message = "Your apartments page.";
+
+			return View();
+		}
+
+		public ActionResult Studios()
+		{
+			ViewBag.Message = "Your studios page.";
+
+			return View();
+		}
+
 	}
 }
